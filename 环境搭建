@@ -1,0 +1,14 @@
+之前没有接触过linux相关的任何东西，所以仅仅环境的搭建就用了一晚上。
+
+问题主要是出现在vscode的remote配置中，配置需要添加ssh公钥。
+
+公钥添加步骤：
+
+1.生成公钥
+
+2.在git bash中键入$  ssh 用户名字@服务器IP   对于我来说即$  ssh Users@localhost
+
+3.使用xhell登录，注意创建时xshell导入的是私钥，参考https://www.cnblogs.com/chenjo/p/15228756.html
+
+
+
