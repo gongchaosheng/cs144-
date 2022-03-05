@@ -6,7 +6,8 @@
 
 1.生成公钥
 
-2.在git bash中,将用户名下的公钥传入服务器的方法是 键入 $ ssh-copy-id 用户名@服务器IP   对于我来说即$  ssh-copy-id Users@localhost
+2.在git bash中,将主机使用者的公钥传入服务器的方法是 在git bash中键入 $ ssh-copy-id 服务器用户名@服务器IP   对于我来说即$  ssh-copy-id cs144@localhost
+注意，ssh-copy-id 默认端口为22，若服务器更改了连接端口号为xxxx，则应使用$ ssh-copy-id -p xxxx 服务器用户名@服务器IP。这里即$  ssh-copy-id -p 2222 cs144@localhost
 
 3.使用xhell登录，注意创建时xshell导入的是私钥，参考https://www.cnblogs.com/chenjo/p/15228756.html
 
