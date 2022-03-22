@@ -1,4 +1,4 @@
-之前没有接触过linux服务器相关的任何东西，所以仅仅环境的搭建就用了一晚上。
+之前没有接触过linux服务器相关的任何东西，所以仅仅环境的搭建就用了几晚上。
 
 问题主要是出现在vscode的remote配置中，配置需要添加ssh公钥。
 
@@ -12,4 +12,14 @@
 3.使用xhell登录，注意创建时xshell导入的是私钥，参考https://www.cnblogs.com/chenjo/p/15228756.html
 
 
+cs144虚拟机连接到github：
+1.在VM中使用$ ssh-keygen -t rsa -C "youremail@example.com"创建公私钥
+2.cat ~/.ssh/id_rsa.pub显示公钥
+3.在github中添加公钥
+4.git clone文件并push到github(使用ssh格式)
+  git clone  git@github.com:CS144/sponge.git
+  //进入sponge文件夹
+  cd ~/sponge
+  //使用git push上传到github
+  git push --mirror git@github.com:gongchaosheng/cs144.git
 
