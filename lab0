@@ -3,3 +3,19 @@ In this section ,when i trying to  run telnet cs144.keithw.org http on the vm,du
 At first i think its my operation fault to cause such "error",after 2hours searching i realized that it is just because my low type speed.
 
 okokokokok, solve this "small"fault and go to sleep
+
+2.3
+I learned git push by studying 2.3.
+the command i learned are listed in the follow:
+
+  "git branch" //examine all local branch ,the green one is the present branch.
+  "git checkout" xx //switch to xx branch
+  "git checkout -b xx" // establish xx branch and switch to it
+  "git merge xx" // merge xxbranch to present branch
+
+
+Every time i finished my labx ,i should 
+  "git add xxxfile"  //push xxx from local repo to the buffer 
+  "git commit -m [xx注释]"  //push xxxfile to present branch
+  "git push origin labx"  //push present branch to the github repo's branch labx  
+  
