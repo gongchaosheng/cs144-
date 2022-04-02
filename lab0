@@ -19,3 +19,15 @@ Every time i finished my labx ,i should
   "git commit -m [xx注释]"  //push xxxfile to present branch
   "git push origin labx"  //push present branch to the github repo's branch labx  
   
+The webget:
+    
+    socket is passway between client host to server host
+    client host tells server the aim host and path by using socket.And in the same ,server tells the message to client by using socket.
+    
+The structure of http request:
+     GET path HTTP/1.1
+     Host: hostname
+     Connection: close
+ 
+    
+  
