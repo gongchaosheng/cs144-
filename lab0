@@ -18,16 +18,23 @@ Every time i finished my labx ,i should
   "git add xxxfile"  //push xxx from local repo to the buffer 
   "git commit -m [xx注释]"  //push xxxfile to present branch
   "git push origin labx"  //push present branch to the github repo's branch labx  
-  
+
+3.4
 The webget:
     
     socket is passway between client host to server host
     client host tells server the aim host and path by using socket.And in the same ,server tells the message to client by using socket.
+    The code should be compiled in bulid directory by running 'make'
     
 The structure of http request:
      GET path HTTP/1.1
      Host: hostname
      Connection: close
+     
+Byte stream:
+
+    size_t is a data type like unsigned int,and it is usigned integer.
+    I think i should use deque as the  stream's data structure. 
  
     
   
