@@ -22,4 +22,8 @@ cs144虚拟机连接到github：
   cd ~/sponge
   //使用git push上传到github
   git push --mirror git@github.com:gongchaosheng/cs144.git
+  
+  VM中 用户邮件和用户名的设置:
+  git config --global user.email ""
+  git config --global user.name ""
 
