@@ -38,6 +38,11 @@ Byte stream:
 
     size_t is a data type like unsigned int,and it is usigned integer.
     I think i should use deque as the  stream's data structure. 
+    
+    The .hh file is head file.In head file we should complete the ByteStream class's private member and we should make statement of the member function.
+    The .cc file includes the .hh file ,so we complete all the specific function which are stated in the .hh file.
+    
+    besides please pay attention to the test instruction is make check_labx ,not make check labx.
  
     
   
