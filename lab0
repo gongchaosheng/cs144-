@@ -12,6 +12,9 @@ the command i learned are listed in the follow:
   "git checkout" xx //switch to xx branch
   "git checkout -b xx" // establish xx branch and switch to it
   "git merge xx" // merge xxbranch to present branch
+  "git remote -v" //show all the remote have been added
+  "git remote add origin xxxx" let xxxx be your origin
+  "git remote remove origin/upstream/xxxx" delete this remote  in local 
 
 
 Every time i finished my labx ,i should 
